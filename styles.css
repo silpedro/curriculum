@@ -1,0 +1,63 @@
+#header{
+    background-color: #cc7722;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px; margin-right: 50px;
+    font-family: 'Hubballi', cursive;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+#nameAndTitle{
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nameAndTitle h1, h2{
+    margin: 0;
+}
+
+#contact{
+    list-style-type: none;
+    font-weight: normal;
+}
+
+#contact i{
+    width: 30px;
+    color: #cc7722;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+}
+
+#sidebar, #content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#sidebar{
+    margin-left: 20px;
+}
+
+#content{
+    margin-right: 20px;
+}
+
+.cards h3{
+    font-family: 'Hubballi', cursive;
+}
+
+.cards {
+    font-family: Montserrat;
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 15px;
+    padding: 20px;
+}
